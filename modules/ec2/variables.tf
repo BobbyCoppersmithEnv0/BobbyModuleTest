@@ -17,7 +17,7 @@ variable "tags" {
 
 variable "ebs_size" {
   type    = number
-  #default = 10
+  default = 10
 }
 
 variable "security_group_ids" {
